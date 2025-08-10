@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
+    int a, b;
 
-    int apples;
-    cin >> apples;
+    cout << "Enter your first number: ";
+    cin >> a;
+    cout << "Enter your second number: ";
+    cin >> b;
 
-    cout << "Number of apples: " << apples << endl;
-
-    return 0;
+    cout << "Sum of number is: " << a+b << endl;
 }
